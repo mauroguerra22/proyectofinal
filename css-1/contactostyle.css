@@ -28,7 +28,7 @@ ul {
 }
 
 .logo span {
-    color: #B70E21;
+    color: white;
 }
 
 .contact-wrapper {
@@ -40,7 +40,7 @@ ul {
 }
 
 .contact-form {
-    background: #222222;
+    background: black;
 }
 
 .contact-form form {
@@ -69,12 +69,12 @@ ul {
     border: none;
     background: none;
     outline: 0;
-    color: #fff;
+    color: #343533;
     border-bottom: 1px solid #d63031;
 }
 
 .contact-form form button {
-    background: #B70E21;
+    background: white;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -82,7 +82,7 @@ ul {
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: #d63031;
+    background: white;
     color: #fff;
     transition: background-color 1s ease-out;
     outline: 0;
@@ -116,3 +116,44 @@ ul {
         text-align: left;
     }
 }
+
+footer {
+    min-height: 80px;
+    background-color: #343533;
+    margin-top: 0; }
+    footer .footer-content {
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+  
+nav, .servicios, .presentacion, .footer-content {
+        width: 80%;
+        margin: auto; }
+
+nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap; }
+        
+        nav ul {
+            display: flex;
+            padding: 0; }
+            nav ul a {
+            padding: 10px;
+            font-size: 1.6rem;
+            font-weight: bold; }
+            nav ul a:hover {
+            color: white;
+            transform: scale(1.1); }
+      
+menu {
+        background-color: white;
+        background: white; }
+              
+header {
+            position:fixed ;
+            background: white;
+            top: 0px;
+            border-top: 0px solid #343533;
+            width: 100%; }
